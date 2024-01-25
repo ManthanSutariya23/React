@@ -8,7 +8,6 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" component={<Home />} />
-          <Route path="/home" component={<Home />} />
           <Route path="/name" component={<Name />} />
         </Routes>
       </Router>
