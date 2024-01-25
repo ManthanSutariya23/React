@@ -7,11 +7,10 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route exact path="/" component={<Home />} />
-          <Route path="/name" component={<Name />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/name" element={<Name />} />
         </Routes>
       </Router>
-      <div>asdasd</div>
     </>
   );
 }
